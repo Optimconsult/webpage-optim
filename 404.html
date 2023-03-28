@@ -7,8 +7,10 @@
   <body>
     <script>
       const { pathname } = window.location;
-      const page = pathname.slice(1);
-      window.location.replace(`/${page}`);
+      if (pathname !== '/') {
+        const page = pathname.slice(1);
+        window.location.replace(`/${page}`);
+      }
     </script>
   </body>
 </html>
