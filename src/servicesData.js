@@ -44,11 +44,11 @@ export default [
     detail: {
       title: "Operación de proyectos de cooperación internacional",
       description:
-        "OPTIM, mediante contrato con Chemonics International, ejecuta el Proyecto BIOREDD+ financiado con recursos de USAID. Este proyecto incluye la estructuración de catorce proyectos REDD+ en los territorios de comunidades indígenas y negras del litoral pacífico; y el fortalecimiento y el desarrollo de proyectos productivos con esas comunidades. Adicionalmente, el Proyecto BIOREDD+ incluye la formalización de los mineros tradicionales de oro en Antioquia, en estrecha coordinación con las empresas Gran Colombia Gold y Mineros S.A.",
+        "OPTIM, mediante contrato con Chemonics International, ejecuta el proyecto BIOREDD+ financiado con recursos de USAID. Este proyecto incluye la estructuración de catorce proyectos REDD+ en los territorios de comunidades indígenas y negras del litoral pacífico; y el fortalecimiento y el desarrollo de proyectos productivos con esas comunidades. Adicionalmente, el proyecto BIOREDD+ incluye la formalización de los mineros tradicionales de oro en Antioquia, en estrecha coordinación con las empresas Gran Colombia Gold y Mineros S.A.",
       content: [
         "Evaluación del desempeño ambiental y social de las empresas, y diseño y acompañamiento en la implementación de estrategias de sostenibilidad social y ambiental.",
-        "Elaboración de Planes de Manejo Ambiental, Estudios de Impacto Ambiental, Diagnósticos Ambientales de Alternativas, y acompañamiento a las empresas en sus gestiones ante las autoridades ambientales.",
-        "Análisis Ambiental y Social y Debida Diligencia conforme a los estándares de desempeño de la IFC, los Principios del Ecuador, las Políticas de Salvaguardas del Banco Mundial y del BID, y normatividad colombiana.",
+        "Elaboración de planes de manejo ambiental, estudios de impacto ambiental, diagnósticos ambientales de alternativas, y acompañamiento a las empresas en sus gestiones ante las autoridades ambientales.",
+        "Análisis ambiental y social y debida diligencia conforme a los estándares de desempeño de la IFC, los principios del Ecuador, las políticas de salvaguardas del banco mundial y del BID, y normatividad colombiana.",
         "Evaluación, valoración, análisis y diseño de estrategias para el tratamiento de pasivos ambientales.",
         "Análisis costo-beneficio-efectividad de proyectos ambientales y sociales.",
         "Gestión de riesgos y conflictos ambientales y sociales.",
@@ -69,13 +69,13 @@ export default [
     detail: {
       title: "Gestión ambiental y social de proyectos productivos",
       description:
-        "OPTIM ha realizado “Gap Analyses” y marcos política de reasentamiento para proyectos mineros. Ha realizado Debidas Diligencias ambientales y sociales para varias empresas del sector energético, industrial y de hidrocarburos; así como análisis y marcos de gestión ambiental y social y políticas de reasentamiento para proyectos de recuperación del espacio público y de mejoramiento de barrios; consultas públicas, entre otros.",
+        "OPTIM ha realizado “Gap Analyses” y marcos política de reasentamiento para proyectos mineros. Ha realizado debidas diligencias ambientales y sociales para varias empresas del sector energético, industrial y de hidrocarburos; así como análisis y marcos de gestión ambiental y social y políticas de reasentamiento para proyectos de recuperación del espacio público y de mejoramiento de barrios; consultas públicas, entre otros.",
       content: [
-        "Evaluación Ambiental Estratégica.",
+        "Evaluación ambiental estratégica.",
         "Planificación y gestión de reasentamientos.",
-        "Análisis Ambiental, Debida Diligencia y Análisis de Vacíos.",
-        "Evaluación de cumplimiento de las Normas de Desempeño sobre Sostenibilidad Ambiental y Social de la Corporación Financiera Internacional (IFC).",
-        "Desarrollo del Marco Ambiental y Social.",
+        "Análisis ambiental, debida diligencia y análisis de vacíos.",
+        "Evaluación de cumplimiento de las normas de desempeño sobre sostenibilidad ambiental y social de la corporación financiera internacional (IFC).",
+        "Desarrollo del marco ambiental y social.",
         "Fortalecimiento de organizaciones comunitarias (campesinas, indígenas, afrodescendientes) para la gestión y el manejo sostenible y productivo de los recursos naturales de sus territorios.",
         "Evaluación y estructuración de proyectos productivos, y acompañamiento y asistencia técnica durante su implementación.",
         "Acompañamiento y asesoría técnica, legal y empresarial a mineros tradicionales en proceso de formalización.",

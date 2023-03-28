@@ -7,7 +7,7 @@ export function Contact() {
   const contactData = {
     title: "Contáctanos",
     description:
-      "Si deseas consultar mayor informacion sobre nuestros servicios o tienes alguna duda al respecto, no dudes en contactarnos.",
+      "Si deseas consultar mayor información sobre nuestros servicios o tienes alguna duda al respecto, no dudes en contactarnos.",
     phoneNumbers: ["3002093734", "3213704639"],
     email: "info@optimconsult.com",
     city: "Bogotá - Colombia",

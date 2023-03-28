@@ -84,8 +84,8 @@ export function Navbar() {
               Servicios
               <div
                 id="dropdownHover"
-                className={`z-10 lg:absolute bg-white divide-y divide-gray-100 rounded-lg shadow w-64 dark:bg-gray-700 ${
-                  isOpen ? "" : "hidden"
+                className={`z-10 lg:absolute bg-white divide-y divide-gray-100 rounded-lg w-64 dark:bg-gray-700 ${
+                  isOpen ? "block" : "hidden"
                 }`}
               >
                 <ul

@@ -32,7 +32,7 @@ function EnterpriseDetail() {
           image={userOne}
           name="Eduardo Uribe"
           description={
-            "Ingeniero Agrónomo, M.Sc. en Química de Suelos (Virginia Tech.) y Ph.D. en Fertilidad de Suelos Tropicales (North Carolina State University). Ha sido director de Sostenibilidad del Grupo Energía de Bogotá, Vicepresidente de Sostenibilidad de Ecopetrol, Director de Política Ambiental del Departamento Nacional de Planeación (DNP), Viceministro del Medio Ambiente y Director del Departamento Técnico Administrativo del Medio Ambiente de Bogotá. Trabajó en la Universidad de los Andes como Coordinador del Programa de Economía Ambiental y Evaluación de Proyectos de la Facultad de Economía y como investigador del Centro de Estudios Económicos (CEDE); y fue director del Centro de Estudios Ganaderos y Agrícolas (CEGA)."
+            "Ingeniero Agrónomo, M.Sc. en química de suelos (Virginia Tech.) y Ph.D. en fertilidad de suelos tropicales (North Carolina state university). Ha sido director de sostenibilidad del grupo energía de Bogotá, vicepresidente de sostenibilidad de Ecopetrol, director de política ambiental del departamento nacional de planeación (DNP), viceministro del medio ambiente y director del departamento técnico administrativo del medio ambiente de Bogotá. trabajó en la universidad de los andes como coordinador del programa de economía ambiental y evaluación de proyectos de la facultad de economía y como investigador del centro de estudios económicos (CEDE); y fue director del centro de estudios ganaderos y agrícolas (CEGA)."
           }
         />
         <hr className="w-3/5 mx-auto border-black md:hidden" />
@@ -41,7 +41,7 @@ function EnterpriseDetail() {
           image={userTwo}
           name="Jaime Bermúdez"
           description={
-            "Abogado (Universidad de los Andes), Ph.D. en Ciencia Política (Universidad de Oxford). Ha sido consultor privado en estrategia de comunicaciones, asesor de la Presidencia de la República, Embajador y Ministro de Relaciones Exteriores. Durante los últimos años se desempeñó como presidente de Lazard (Banco de inversión) en Colombia, miembro de varias juntas directivas, del Consejo Superior de la Universidad de los Andes y otras organizaciones sin ánimo de lucro."
+            "Abogado (Universidad de los Andes), Ph.D. en ciencia política (Universidad de Oxford). Ha sido consultor privado en estrategia de comunicaciones, asesor de la presidencia de la república, embajador y ministro de relaciones exteriores. Durante los últimos años se desempeñó como presidente de Lazard (Banco de inversión) en Colombia, miembro de varias juntas directivas, del consejo superior de la universidad de los Andes y otras organizaciones sin ánimo de lucro."
           }
         />
         <hr className="w-3/5 mx-auto border-black md:hidden" />
@@ -49,7 +49,7 @@ function EnterpriseDetail() {
           image={userThree}
           name="Santiago Arango"
           description={
-            "Ingeniero Ambiental (Universidad de los Andes), con posgrado en Gerencia de Proyectos y Especialización en Análisis de Políticas Públicas (Universidad Nacional). Ha sido asesor del Ministerio de Ambiente y Desarrollo Sostenible de Parques Naturales Nacionales y de la Secretaría Distrital de Ambiente de Bogotá, cuenta con amplia experiencia en proyectos de mitigación y adaptación al cambio climático, evaluaciones ambientales de acuerdo a estándares de desempeño nacionales e internacionales, desarrollo de instrumentos de gestión ambiental y social y formulación y evaluación de políticas públicas ambientales para varias agencias estatales."
+            "Ingeniero ambiental (Universidad de los andes), con posgrado en gerencia de proyectos y especialización en análisis de políticas públicas (Universidad nacional). Ha sido asesor del ministerio de ambiente y desarrollo sostenible de parques naturales nacionales y de la secretaría distrital de ambiente de Bogotá, cuenta con amplia experiencia en proyectos de mitigación y adaptación al cambio climático, evaluaciones ambientales de acuerdo a estándares de desempeño nacionales e internacionales, desarrollo de instrumentos de gestión ambiental y social y formulación y evaluación de políticas públicas ambientales para varias agencias estatales."
           }
         />
         <hr className="w-3/5 mx-auto border-black md:hidden" />
@@ -57,7 +57,7 @@ function EnterpriseDetail() {
           image={userFour}
           name="Julián Páez"
           description={
-            "Abogado (Universidad Pedagógica y Tecnológica de Colombia), especialista en Derecho Público (Universidad Nacional), Gestión Pública (Universidad de los Andes) y Maestrías en Gerencia y Práctica del desarrollo y Gerencia Ambiental (Universidad de los Andes), ha sido asesor de la Corte Constitucional, la Alcaldía Mayor de Bogotá, los ministerios de Trabajo, Interior, Minas y Energía y en este último se desempeñó como Secretario General, Subdirector Administrativo y Financiero, jefe de Tecnologías de la Información y Comunicaciones, así como fue miembro de las juntas de Cedelca, Urrá y la Empresa Colombiana de Gas, Ecogas."
+            "Abogado (Universidad pedagógica y tecnológica de Colombia), especialista en derecho público (Universidad nacional), gestión pública (Universidad de los Andes) y maestrías en gerencia y práctica del desarrollo y gerencia ambiental (Universidad de los Andes). Ha sido asesor de la corte constitucional, la alcaldía mayor de Bogotá, los ministerios de trabajo, interior, minas y energía y en este último se desempeñó como secretario general, subdirector administrativo y financiero, jefe de tecnologías de la información y comunicaciones, así como fué miembro de las juntas de cedelca, urrá y la empresa colombiana de gas, ecogas."
           }
         />
       </div>
