@@ -6,7 +6,9 @@
   </head>
   <body>
     <script>
-      window.location.replace("/");
+      const { pathname } = window.location;
+      const page = pathname.slice(1);
+      window.location.replace(`/${page}`);
     </script>
   </body>
 </html>
