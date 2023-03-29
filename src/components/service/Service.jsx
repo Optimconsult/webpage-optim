@@ -20,7 +20,7 @@ const servicesData = [
     image: manos,
     title: "Operación de proyectos de cooperación internacional",
     description:
-      "Evaluación del desempeño ambiental y social de las empresas, diseño y acompañamiento en la implementación de estrategias de sostenibilidad social y ambiental.",
+      "Evaluación del desempeño ambiental y social de las empresas, diseño y acompañamiento en la implementación de estrategias de sostenibilidad económica, ambiental y social.",
     id: 2,
   },
   {
