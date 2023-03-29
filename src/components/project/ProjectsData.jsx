@@ -16,7 +16,7 @@ export const projectsData = [
       image: pictureOne,
       name: "Minería",
       description:
-        "Hemos participado en la gestión ambiental y social de varios proyectos mineros. Entre ellos se destacan la elaboración del Análisis de Brechas y el Marco Política Reasentamiento para el Proyecto Minero Integrado en la Guajira (CCX), la consulta pública del nuevo estándar internacional para la producción de carbón: BETTERCOAL CODE; y, como parte del programa BIOREDD+, financiado por USAID, estamos llevando a cabo una estrategia de formalización/legalización de la minería tradicional del oro en Antioquia con las empresas Gran Colombia Gold y Mineros de Antioquia, entre otras. Adicionalmente, formulamos la agenda conjunta para los ministerios de minas y ambiente.",
+        "Hemos participado en la gestión ambiental y social de varios proyectos mineros. Entre ellos se destacan la elaboración del análisis de brechas y el marco política reasentamiento para el proyecto minero integrado en la Guajira (CCX), la consulta pública del nuevo estándar internacional para la producción de carbón: BETTERCOAL CODE; y, como parte del programa BIOREDD+, financiado por USAID, estamos llevando a cabo una estrategia de formalización/legalización de la minería tradicional del oro en Antioquia con las empresas Gran Colombia Gold y Mineros de Antioquia, entre otras. Adicionalmente, formulamos la agenda conjunta para los ministerios de minas y ambiente.",
     },
   },
   {
@@ -25,7 +25,7 @@ export const projectsData = [
       image: pictureTwo,
       name: "Agroindustria",
       description:
-        "Hemos colaborado en el desarrollo de proyectos para el aprovechamiento energético de subproductos de las industrias azucarera y palmera. Estos proyectos, además de generar energías renovables, evitan emisiones de Gases Efecto de Invernadero (CO2; CH4).",
+        "Hemos colaborado en el desarrollo de proyectos para el aprovechamiento energético de subproductos de las industrias azucarera y palmera. Estos proyectos, además de generar energías renovables, evitan emisiones de gases efecto de invernadero (CO2; CH4).",
     },
   },
   {
@@ -59,7 +59,7 @@ export const projectsData = [
     data: {
       image: pictureSix,
       name: "Infraestructura y telecomunicaciones",
-      description: `OPTIM ha elaborado Debidas Diligencias Ambientales y Sociales de empresas de los sectores de infraestructura y telecomunicaciones, verificando el cumplimiento de la legislación nacional y los más altos estándares internacionales, identificando los vacíos y fallas pertinentes y realizando las recomendaciones necesarias para asegurar la calidad de los Sistemas de Manejo Ambiental y Social.`,
+      description: `OPTIM ha elaborado debidas diligencias ambientales y sociales de empresas de los sectores de infraestructura y telecomunicaciones, verificando el cumplimiento de la legislación nacional y los más altos estándares internacionales, identificando los vacíos y fallas pertinentes y realizando las recomendaciones necesarias para asegurar la calidad de los sistemas de manejo ambiental y social.`,
     },
   },
   {
@@ -67,7 +67,7 @@ export const projectsData = [
     data: {
       image: pictureSeven,
       name: "Alimentos y bebidas",
-      description: `Llevamos a cabo la evaluación de la Huella de Carbono Corporativa para Coca-Cola FEMSA. En este caso identificamos las emisiones directas e indirectas tomando como base el GHG Protocol. Con base en este análisis propusimos estrategias para el desarrollo ambientalmente sostenible del negocio.`,
+      description: `Llevamos a cabo la evaluación de la huella de carbono corporativa para Coca-Cola FEMSA. En este caso identificamos las emisiones directas e indirectas tomando como base el GHG Protocol. Con base en este análisis propusimos estrategias para el desarrollo ambientalmente sostenible del negocio.`,
     },
   },
   {
@@ -99,9 +99,9 @@ export const projectsData = [
     data: {
       image: pictureTen,
       name: "Gestión y ordenamiento territorial",
-      description: `Formulación de los Planes Estratégicos de las Macrocuencas: Magdalena, Cauca y Caribe.
+      description: `Formulación de los planes estratégicos de las macrocuencas: Magdalena, Cauca y Caribe.
 
-      Actualmente estamos formulando los Planes Estratégicos de las Macrocuencas Magdalena, Cauca y Caribe. Esto incluye la formulación de la línea base de esos territorios, el diagnóstico, análisis estratégico y la formulación de lineamientos y directrices para la planificación estratégica de esos territorios`,
+      Actualmente estamos formulando los planes estratégicos de las macrocuencas Magdalena, Cauca y Caribe. Esto incluye la formulación de la línea base de esos territorios, el diagnóstico, análisis estratégico y la formulación de lineamientos y directrices para la planificación estratégica de esos territorios`,
     },
   },
 ];

@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jackson97parada.github.io/Optim/",
+  "homepage": "https://optimconsult.co/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "postbuild": "cp 404.html dist/ && cp .htaccess dist/"
+
   },
   "dependencies": {
     "@coreui/coreui": "^4.2.6",
@@ -23,6 +25,7 @@
     "react-icons": "^4.8.0",
     "react-responsive": "^9.0.2",
     "react-router-dom": "^6.9.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scroll": "^1.8.9",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",

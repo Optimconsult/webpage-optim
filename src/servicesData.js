@@ -46,7 +46,7 @@ export default [
       description:
         "OPTIM, mediante contrato con Chemonics International, ejecuta el proyecto BIOREDD+ financiado con recursos de USAID. Este proyecto incluye la estructuración de catorce proyectos REDD+ en los territorios de comunidades indígenas y negras del litoral pacífico; y el fortalecimiento y el desarrollo de proyectos productivos con esas comunidades. Adicionalmente, el proyecto BIOREDD+ incluye la formalización de los mineros tradicionales de oro en Antioquia, en estrecha coordinación con las empresas Gran Colombia Gold y Mineros S.A.",
       content: [
-        "Evaluación del desempeño ambiental y social de las empresas, y diseño y acompañamiento en la implementación de estrategias de sostenibilidad social y ambiental.",
+        "Evaluación del desempeño ambiental y social de las empresas, diseño y acompañamiento en la implementación de estrategias de sostenibilidad económica, ambiental y social.",
         "Elaboración de planes de manejo ambiental, estudios de impacto ambiental, diagnósticos ambientales de alternativas, y acompañamiento a las empresas en sus gestiones ante las autoridades ambientales.",
         "Análisis ambiental y social y debida diligencia conforme a los estándares de desempeño de la IFC, los principios del Ecuador, las políticas de salvaguardas del banco mundial y del BID, y normatividad colombiana.",
         "Evaluación, valoración, análisis y diseño de estrategias para el tratamiento de pasivos ambientales.",

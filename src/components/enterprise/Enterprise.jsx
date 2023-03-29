@@ -25,16 +25,16 @@ export function Enterprise() {
         {enterpriseData.partners}
       </h2>
       <div className="grid grid-cols-2 gap-y-20">
-        <Link to={"/Optim/enterpriseDetail"}>
+        <Link to={"/enterpriseDetail"}>
           <Partner image={userOne} name="Eduardo Uribe" />
         </Link>
-        <Link to={"/Optim/enterpriseDetail"}>
+        <Link to={"/enterpriseDetail"}>
           <Partner image={userTwo} name="Jaime Bermúdez" />
         </Link>
-        <Link to={"/Optim/enterpriseDetail"}>
+        <Link to={"/enterpriseDetail"}>
           <Partner image={userThree} name="Santiago Arango" />
         </Link>
-        <Link to={"/Optim/enterpriseDetail"}>
+        <Link to={"/enterpriseDetail"}>
           <Partner image={userFour} name="Julián Páez" />
         </Link>
       </div>

@@ -1,5 +1,5 @@
 import { enterpriseData } from "./Enterprise";
-import { Partner } from "./Partner";
+import { PartnerDetail } from "./PartnerDetail";
 import userOne from "/user-one.jpeg";
 import userTwo from "/user-two.jpeg";
 import userThree from "/user-three.jpeg";
@@ -28,7 +28,7 @@ function EnterpriseDetail() {
         </h2>
       </div>
       <div className="grid md:grid-cols-2 gap-y-20 md:gap-y-32 md:px-10">
-        <Partner
+        <PartnerDetail
           image={userOne}
           name="Eduardo Uribe"
           description={
@@ -37,7 +37,7 @@ function EnterpriseDetail() {
         />
         <hr className="w-3/5 mx-auto border-black md:hidden" />
 
-        <Partner
+        <PartnerDetail
           image={userTwo}
           name="Jaime Bermúdez"
           description={
@@ -45,7 +45,7 @@ function EnterpriseDetail() {
           }
         />
         <hr className="w-3/5 mx-auto border-black md:hidden" />
-        <Partner
+        <PartnerDetail
           image={userThree}
           name="Santiago Arango"
           description={
@@ -53,7 +53,7 @@ function EnterpriseDetail() {
           }
         />
         <hr className="w-3/5 mx-auto border-black md:hidden" />
-        <Partner
+        <PartnerDetail
           image={userFour}
           name="Julián Páez"
           description={

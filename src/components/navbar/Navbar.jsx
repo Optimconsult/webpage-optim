@@ -6,6 +6,8 @@ import logo from "../../../public/logo.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
+import { HashLink } from "react-router-hash-link";
+
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,7 +17,7 @@ export function Navbar() {
       className="px-11 fixed top-0 left-0 right-0 bg-white w-[100vw] lg:h-28 z-50 shadow-shadowNavbar"
     >
       <div className="flex flex-wrap lg:flex-nowrap justify-between mx-auto max-w-[1300px]">
-        <a href="/Optim/">
+        <a href="/">
           <img src={logo} className="w-24 lg:w-28 pb-6 pt-4" alt="logo" />
         </a>
         {/* MENU */}
@@ -65,17 +67,15 @@ export function Navbar() {
           }`}
         >
           <div className="flex flex-wrap lg:flex-nowrap text-center lg:text-start gap-4 lg:gap-[100px] md:pl-20">
-            <a
-              href="/Optim/#home"
+            <HashLink
+              to={"/#home"}
               className="hover:text-[#10454F] w-full lg:w-auto hover:-translate-y-1 transition"
             >
               Inicio
-            </a>
-            <a
-              href="/Optim/#services"
+            </HashLink>
+            <HashLink
+              to={"/#services"}
               id="dropdownHoverButton"
-              data-dropdown-toggle="dropdownHover"
-              data-dropdown-trigger="hover"
               className={`hover:text-[#10454F] w-full lg:w-auto hover:-translate-y-1 transition`}
               type="button"
               onMouseEnter={() => setIsOpen(true)}
@@ -84,7 +84,7 @@ export function Navbar() {
               Servicios
               <div
                 id="dropdownHover"
-                className={`z-10 lg:absolute bg-white divide-y divide-gray-100 rounded-lg w-64 dark:bg-gray-700 ${
+                className={`z-10 lg:absolute bg-white divide-y divide-gray-100 lg:-left-24 rounded-lg w-64 dark:bg-gray-700 ${
                   isOpen ? "block" : "hidden"
                 }`}
               >
@@ -93,7 +93,7 @@ export function Navbar() {
                   aria-labelledby="dropdownHoverButton"
                 >
                   <li>
-                    <Link to={"/Optim/services/1"}>
+                    <Link to={"/services/1"}>
                       <button className="block text-justify py-2 px-5 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                         Adaptación y mitigación del cambio climático
                       </button>
@@ -101,7 +101,7 @@ export function Navbar() {
                     <hr className="w-[82%] mx-auto" />
                   </li>
                   <li>
-                    <Link to={"/Optim/services/2"}>
+                    <Link to={"/services/2"}>
                       <button className="block py-2 px-5 text-justify hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                         Operación de proyectos de cooperación internacional
                       </button>
@@ -109,7 +109,7 @@ export function Navbar() {
                     <hr className="w-[82%] mx-auto" />
                   </li>
                   <li>
-                    <Link to={"/Optim/services/3"}>
+                    <Link to={"/services/3"}>
                       <button className="block py-2 px-5 text-justify hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                         Gestión ambiental y social de proyectos productivos
                       </button>
@@ -117,8 +117,8 @@ export function Navbar() {
                     <hr className="w-[82%] mx-auto" />
                   </li>
                   <li>
-                    <Link to={"/Optim/services/4"}>
-                      <button className="block py-2 px-5 text-justify hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                    <Link to={"/services/4"}>
+                      <button className="block py-2 px-3 text-left hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                         Desarrollo de políticas públicas
                       </button>
                     </Link>
@@ -126,32 +126,32 @@ export function Navbar() {
                   </li>
                 </ul>
               </div>
-            </a>
-            <a
+            </HashLink>
+            <HashLink
               className="hover:text-[#10454F] w-full lg:w-auto hover:-translate-y-1 transition"
-              href="/Optim/#enterprise"
+              to={"/#enterprise"}
             >
               Empresa
-            </a>
-            <a
+            </HashLink>
+            <HashLink
               className="hover:text-[#10454F] w-full lg:w-auto hover:-translate-y-1 transition"
-              href="/Optim/#customer"
+              to={"/#customer"}
             >
               Clientes
-            </a>
+            </HashLink>
             <Link
-              to={"/Optim/projects"}
+              to={"/projects"}
               className="lg:w-auto hover:-translate-y-1 w-full transition"
             >
               <button className="hover:text-[#10454F]">Proyectos</button>
             </Link>
           </div>
-          <a
+          <HashLink
             className="hidden lg:flex py-2.5 px-[18px] bg-black hover:bg-[#10454F] transition text-white rounded-[55px] text-sm font-semibold w-auto"
-            href="/Optim/#contact"
+            to={"/#contact"}
           >
             Contacto
-          </a>
+          </HashLink>
         </ul>
       </div>
     </nav>

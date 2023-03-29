@@ -9,11 +9,11 @@ export default function App() {
   return (
     <div className="font-poppins pt-24 md:pt-32 container min-w-[300px] w-auto md:w-full max-w-[1280px] md:mx-auto">
       <Routes>
-        <Route path="/Optim" element={<LandingPages />} />
-        <Route path="/Optim/services/:serviceId" element={<ServiceDetail />} />
-        <Route path="/Optim/enterpriseDetail" element={<EnterpriseDetail />} />
-        <Route path="/Optim/projects" element={<ProjectDetail />} />
-        <Route path="/Optim/projects/:projectId" element={<ProjectView />} />
+        <Route path="/" element={<LandingPages />} />
+        <Route path="/services/:serviceId" element={<ServiceDetail />} />
+        <Route path="/enterpriseDetail" element={<EnterpriseDetail />} />
+        <Route path="/projects" element={<ProjectDetail />} />
+        <Route path="/projects/:projectId" element={<ProjectView />} />
       </Routes>
     </div>
   );

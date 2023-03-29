@@ -3,7 +3,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 
 function Footer() {
   return (
-    <footer className="flex flex-wrap md:flex-nowrap gap-4 md:gap-0 justify-between mx-6 md:mx-12 py-8 border-t-2 border-black">
+    <footer className="flex flex-wrap md:flex-nowrap gap-4 md:gap-0 justify-between max-w-[1300px] lg:mx-auto mx-6 md:mx-12 py-8 border-t-2 border-black">
       <ul className="flex  gap-4">
         <a
           href="https://www.linkedin.com/company/optim-consult/"
